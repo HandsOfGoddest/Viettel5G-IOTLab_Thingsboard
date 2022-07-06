@@ -22,8 +22,8 @@ FACULTY OF COMPUTER SCIENCE AND ENGINEERING
 |  2  | Nguyễn Đình Hiếu  |  1913341   | hieuncse@gmail.com   |  [<img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" align="left" width=20px style="margin-left:5px" />][git2] |
 
 ## Languages & Tools
-- Python: <img src="https://vietnix.vn/wp-content/uploads/2021/07/python-la-gi.webp" align="center" style="margin-left:5px;margin-bottom:5px" width=30px/>
-- Docker: <img src="https://topdev.vn/blog/wp-content/uploads/2019/05/docker-banner.png" align="center" style="margin-left:5px;margin-bottom:5px" width=30px/>
+- Python: <img src="https://vietnix.vn/wp-content/uploads/2021/07/python-la-gi.webp" align="center" style="margin-left:5px;margin-bottom:5px" width=50px/>
+- Docker: <img src="https://topdev.vn/blog/wp-content/uploads/2019/05/docker-banner.png" align="center" style="margin-left:5px;margin-bottom:5px" width=50px/>
 - Version Control: <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/github-256.png" align="center" style="margin-left:10px;margin-bottom:5px" width=30px/>
 - UML Diagram: <img src="https://blog.tda-corp.co.jp/wp-content/uploads/2020/05/DrawIO.png" align="center" style="margin-left:10px;margin-bottom:2px" width=70px/>
 - Report: <img src="https://images.ctfassets.net/nrgyaltdicpt/6gsvc5Ogjmu04I4Miu0uGg/cb1d4391717d2ab8d5e42ede6fb0eef1/overleaf_wide_colour_light_bg.png" align="center" style="margin-left:10px;margin-bottom:5px;" width=70px/>
