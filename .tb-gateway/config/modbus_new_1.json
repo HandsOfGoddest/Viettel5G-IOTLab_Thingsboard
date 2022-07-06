@@ -1,0 +1,54 @@
+{
+  "master": {
+    "slaves": [
+      {
+        "unitId": 1,
+        "deviceName": "TH_sensor",
+        "attributesPollPeriod": 5000,
+        "timeseriesPollPeriod": 5000,
+        "sendDataOnlyOnChange": false,
+        "attributes": [
+          {
+            "byteOrder": "BIG",
+            "tag": "batteryLevel",
+            "type": "long",
+            "functionCode": 4,
+            "registerCount": 1,
+            "address": 2
+          }
+        ],
+        "timeseries": [
+          {
+            "byteOrder": "BIG",
+            "tag": "humidity",
+            "type": "long",
+            "functionCode": 4,
+            "registerCount": 1,
+            "address": 1
+          },
+          {
+            "byteOrder": "BIG",
+            "tag": "temperature",
+            "type": "long",
+            "functionCode": 4,
+            "registerCount": 1,
+            "address": 0
+          }
+        ],
+        "host": "localhost",
+        "port": 5020,
+        "type": "tcp",
+        "method": "socket",
+        "timeout": 35,
+        "byteOrder": null,
+        "wordOrder": null,
+        "retries": null,
+        "retryOnEmpty": null,
+        "retryOnInvalid": null,
+        "baudrate": null,
+        "pollPeriod": 5000
+      }
+    ]
+  },
+  "slave": null
+}

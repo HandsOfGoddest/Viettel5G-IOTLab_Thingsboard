@@ -1,0 +1,131 @@
+{
+  "name": "TCP Connector Example",
+  "type": "TCP",
+  "address": "0.0.0.0",
+  "port": 50050,
+  "bufferSize": 1024,
+  "devices": [
+    {
+      "address": "192.168.1.225:2304",
+      "deviceName": "test_device_30_6_2022",
+      "deviceType": "TCP_DEVICE",
+      "encoding": "utf-8",
+      "telemetry": [
+        {
+          "key": "deviceName",
+          "byteFrom": 0,
+          "byteTo": 8
+        },
+        {
+          "key": "temp",
+          "byteFrom": 8,
+          "byteTo": 11
+        },
+        {
+          "key": "hum",
+          "byteFrom": 11,
+          "byteTo": -1
+        }
+      ],
+      "attributes": [
+        {
+          "key": "name",
+          "byteFrom": 0,
+          "byteTo": 4
+        },
+	{
+	  "key": "id",
+          "byteFrom": 4,
+          "byteTo": 8
+	},
+        {
+          "key": "deviceName",
+          "byteFrom": 0,
+          "byteTo": 8 
+        }
+      ],
+      "attributeRequests": [
+        {
+          "type": "shared",
+          "requestExpression": "${[0:3]==atr}",
+          "attributeNameExpression": "[3:]"
+        }
+      ],
+      "attributeUpdates": [
+        {
+          "encoding": "utf-8",
+          "attributeOnThingsBoard": "sharedName"
+        }
+      ],
+      "serverSideRpc": [
+        {
+          "methodRPC": "rpcMethod1",
+          "withResponse": true,
+          "methodProcessing": "write",
+          "encoding": "utf-8"
+        }
+      ]
+    },
+    {
+      "address": "192.168.1.18:2305",
+      "deviceName": "test_device_4_7_2022",
+      "deviceType": "TCP_TEST",
+      "encoding": "utf-8",
+      "telemetry": [
+        {
+          "key": "deviceName",
+          "byteFrom": 0,
+          "byteTo": 4
+        },
+        {
+          "key": "temp",
+          "byteFrom": 4,
+          "byteTo": 6
+        },
+        {
+          "key": "hum",
+          "byteFrom": 6,
+          "byteTo": -1
+        }
+      ],
+      "attributes": [
+        {
+          "key": "name",
+          "byteFrom": 0,
+          "byteTo": 4
+        },
+	{
+	  "key": "id",
+          "byteFrom": 2,
+          "byteTo": 4
+	},
+        {
+          "key": "deviceName",
+          "byteFrom": 0,
+          "byteTo": 4 
+        }
+      ],
+      "attributeRequests": [
+        {
+          "type": "shared",
+          "requestExpression": "${[0:3]==atr}",
+          "attributeNameExpression": "[3:]"
+        }
+      ],
+      "attributeUpdates": [
+        {
+          "encoding": "utf-8",
+          "attributeOnThingsBoard": "sharedName"
+        }
+      ],
+      "serverSideRpc": [
+        {
+          "methodRPC": "rpcMethod1",
+          "withResponse": true,
+          "methodProcessing": "write",
+          "encoding": "utf-8"
+        }
+      ]
+    }
+  ]
+}

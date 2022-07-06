@@ -1,0 +1,50 @@
+{
+  "H001": [
+    "MQTT Broker Connector",
+    "Thermometer"
+  ],
+  "H10": [
+    "MQTT Broker Connector",
+    "Thermometer"
+  ],
+  "OM123456789123450": [
+    "MQTT Broker Connector",
+    "TCP_device"
+  ],
+  "OM123456789123456": [
+    "MQTT Broker Connector",
+    "TCP_device"
+  ],
+  "OM123456789123457": [
+    "MQTT Broker Connector",
+    "TCP_device"
+  ],
+  "OM123456789123458": [
+    "MQTT Broker Connector",
+    "TCP_device"
+  ],
+  "OM123456789123459": [
+    "MQTT Broker Connector",
+    "TCP_device"
+  ],
+  "ORING": [
+    "MQTT Broker Connector",
+    "oring"
+  ],
+  "SN_001": [
+    "MQTT Broker Connector",
+    "Thermometer"
+  ],
+  "SN_004": [
+    "MQTT Broker Connector",
+    "Thermometer"
+  ],
+  "test_device_30_6_2022": [
+    "Socket TCP/UDP Connector",
+    "TCP_DEVICE"
+  ],
+  "test_device_4_7_2022": [
+    "Socket TCP/UDP Connector",
+    "TCP_TEST"
+  ]
+}
