@@ -26,7 +26,7 @@ FACULTY OF COMPUTER SCIENCE AND ENGINEERING
 - Docker: <img src="https://camo.githubusercontent.com/854990eb3c4a83b392e3bb1f28a3d2d07e0d2448cb3903b33c2c9aac68d9d4ce/68747470733a2f2f696d6167652e70726e747363722e636f6d2f696d6167652f5153314a57675669514d7146705939326949556d50672e706e67" align="center" style="margin-left:5px;margin-bottom:5px" width=70px/>
 - Version Control: <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/github-256.png" align="center" style="margin-left:10px;margin-bottom:5px" width=30px/>
 - UML Diagram: <img src="https://blog.tda-corp.co.jp/wp-content/uploads/2020/05/DrawIO.png" align="center" style="margin-left:10px;margin-bottom:2px" width=70px/>
-- Report: <a href="[https://www.overleaf.com/project/62aff85d8d2e0da459ad34f9](https://www.overleaf.com/read/cgkhmgmbfzbv)"><img src="https://images.ctfassets.net/nrgyaltdicpt/6gsvc5Ogjmu04I4Miu0uGg/cb1d4391717d2ab8d5e42ede6fb0eef1/overleaf_wide_colour_light_bg.png" align="center" style="margin-left:10px;margin-bottom:5px;" width=70px/></a>
+- Report: <a href="https://www.overleaf.com/project/62aff85d8d2e0da459ad34f9"><img src="https://images.ctfassets.net/nrgyaltdicpt/6gsvc5Ogjmu04I4Miu0uGg/cb1d4391717d2ab8d5e42ede6fb0eef1/overleaf_wide_colour_light_bg.png" align="center" style="margin-left:10px;margin-bottom:5px;" width=70px/></a>
 
 [git1]: https://github.com/PHITRUONG2304
 [git2]: https://github.com/HandsOfGoddest
