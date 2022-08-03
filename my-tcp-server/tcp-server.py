@@ -6,8 +6,6 @@ import config as g
 import paho.mqtt.client as mqttclient
 import json
 
-
-
 def getIdDeviceOMNI(data):
     result = data.split(",")
     finalresult = result[g.indexIdOmni[0]] + '/'
@@ -73,7 +71,8 @@ class clientMQTT():
         print("send data ", msg, " successfully")
         sleep(2)
     def subscribeTopic(self, topic):
-        topic = "tcp/"+topic+"/set" 
+        # topic = "tcp/"+topic+"/set" 
+        topic= "hex/test/demo"
         self._client.subscribe(topic=topic)
         print('Subscribed to topic: ', topic)
         
@@ -83,9 +82,6 @@ class clientMQTT():
         if addr == -1:
             pass
         g.clients[addr].send(message.payload)
-
-
-
 
 class SocketServer():
     serv = socket
